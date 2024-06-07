@@ -13,7 +13,10 @@
       "full-first-name": "Ky",
       "preferred-first-name": "Ky",
       "last-name": "Leggiero",
-      "phone-number": "+1 (470) 236 2534",
+      "phone-number": {
+          "use-scheduling-widget": true,
+          "scheduling-widget-url": "https://KyLeggiero.me/Scheduling"
+      },
       "email-address": "Hire@KyLeggiero.me",
       "tagline": "Staff Software Engineer with a passion for designing & making great products for Apple platforms",
       "website-url": "https://KyLeggiero.me",
