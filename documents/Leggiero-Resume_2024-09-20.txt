@@ -1,0 +1,217 @@
+
+Ky Leggiero
+
+Software Engineer with over 17 years of experience, currently specializing in leading, creating, maintaining, & migrating iOS & macOS applications & frameworks across multiple teams, departments, & disciplines.
+
+Hire@KyLeggiero.me
+Schedule a call at KyLeggiero.me/Scheduling
+
+
+
+---
+
+Software Engineer with over 17 years of experience, currently specializing in leading, creating, maintaining, & migrating iOS & macOS applications & frameworks across multiple teams, departments, & disciplines. Experience in porting applications to new platforms.  Skilled with UI/UX engineering as well, including flow design, accessibility, icons, interactive animations, and user interface layout. Worked within Agile teams.
+A full product lifecycle developer well-versed in CI/CD processes with services like Bitrise, GitHub Actions, ADO, Jenkins, CircleCI, Bitbucket Pipelines, and more.  
+
+- Git repositories & versioning. 
+- UI design implementation using code, SwiftUI, Storyboards, NIB/XIB files, XML, Compose, and more. Layout for adjustable windows & screens across device sizes.
+- Deep understanding of modern architecture patterns and principles including Composable, Reactive, FP, CUPID, OOP with SOLID, MVVM, MVP, MVC, and more. 
+- Coding with Swift, Kotlin, UI/UX designs, Objective-C, Rust, RESTful APIs, various frameworks including SwiftUI, UIKit, Core Data, AVFoundation, EventKit, AddressBook and CoreLocation. Familiar with learning new languages, platforms, & frameworks within a week.
+- Testing & bug fixing using TDD and test suites including XCTest, SwiftTest, AndroidX, NSLog & OSLog, Breakpoints, LLDB statements, and Instruments. Works with QA/QE to tighten test/release cycle. Experienced talking with customers & using results of UATs.
+- Incorporated data storage with SQLite, Core Data databases, Object Storage, AWS, GraphQL, direct filesystem storage, and more. 
+- Experienced in parsing including XML, JSON, and many others.
+- Integrated many services: 
+    - Adobe Analytics and Google Analytics.
+    - Auth0 for robust authentication services, ensuring seamless and secure user sign-up and login
+    - Biometric authentication (Face ID/Touch ID)
+    - Apple's Push Notifications Service
+    - MapKit
+    - Apollo Client for GraphQL queries 
+    - Direct web service connections using URLSessionDataTask, sockets, SSL, TLS, DHKE, and more
+
+
+
+---
+
+Employment:
+
+
+
+Company: Realtor.com
+Duration: 2022 - 2023
+Position: Staff Software Engineer
+Industry: Real Estate
+
+Projects: Realtor.com for iOS, Agile Workgroup
+
+Summary:
+- Lead transition to SwiftUI across core components.
+- Collaborated cross-team to ensure clear sync & quality product.
+- Drove changes of product, process, & team.
+- Worked with UI/UX to finalize & implement full redesign.
+- Documented & encoded new components (e.g. design system).
+- Founded working groups for whole-company efficiency.
+- Coordinated proactive changes to minimize losses.
+
+Key skills: Swift, SwiftUI, Flutter & Dart, iOS, migration, Git, agile, Jira, workgroups, cross-team leadership, mentorship, UI/UX, TDD, maps, MapKit, GraphQL, animations, native, cross-platform, repo scripting
+
+
+
+Company: Yes Health
+Duration: 2021 - 2022
+Position: Lead Software Engineer
+Industry: Healthcare
+
+Projects: Yes Health for iOS, Yes Health for Android
+
+Summary:
+- Coordinated engineering multiple health products across multiple platforms
+- Transitioned from Objective-C + UIKit to Swift + SwiftUI.
+- Improved product DEI.
+- Set department-wide processes & best practices: agile kanban sprints, version control, documentation system, etc.
+- Worked with UI/UX team to redesign & rebrand those products.
+
+Key skills: Swift, SwiftUI, Objective-C, migration, Git, agile, Jira, cross-team leadership, hiring, mentorship, UI/UX, accessibility, TDD, live chat, GraphQL, native, repo scripting, multi-platform, iOS, Android, Kotlin, CI/CD, Bitrise, startup
+
+
+
+Company: PKWare
+Duration: 2020 - 2021
+Position: Senior Software Engineer
+Industry: InfoSec
+
+Projects: Encrypted eMail, SmartCrypt
+
+Summary:
+- Personal file encryption software for macOS and iOS.
+- R&D greenfield eMail encryption products.
+- Internal software libraries to support products.
+- Completely redesigned the iOS app from the ground up to focus on core competencies, improve accessibility, & optimize flow.
+
+Key skills: Swift, C++, encryption, cryptography, public-key, DHKE, user automation, accessibility, networking, eMail, tiger team, greenfield, maintenance, Git, agile, ADO, UI/UX, native, repo scripting, multi-platform, macOS, iOS, CI/CD, Jira
+
+
+
+Company: Ionic Security
+Duration: 2017 - 2019
+Position: Software Engineer III
+Industry: InfoSec
+
+Projects: Ionic Files for macOS
+
+Summary:
+- Owned user-facing file encryption & sync software for macOS.
+- Collaborated on a company-wide software platform to enable client software consistency on all supported platforms: macOS, Android, Windows, Linux, and iOS.
+- Worked with UI/UX team on aspects of all products, including graphics, animations, user flows, etc.
+- Worked with QA (QE) team to tighten test-release cycle & minimize defects.
+
+Key skills: Swift, C, Objective-C, C++, Objective-C++, encryption, accessibility, networking, encrypted file manager, maintenance, Git, agile, ADO, UI/UX, native, repo scripting, multi-platform, macOS, Windows, Linux, CI/CD, Jira, startup
+
+
+
+Company: Renewed Vision
+Duration: 2016 - 2017
+Position: macOS Software Engineer
+Industry: Entertainment
+
+Projects: ProPresenter, Pro Video Player
+
+Summary:
+- Industry-leading professional presentation software on macOS.
+- Collaboratively created software platforms with open-source & proprietary tech.
+- Advanced auto font scaling, inspector, interactive animations, freeform layout engine, custom canvas…
+- Designed icons & other graphics, user flows, interface approaches, animations, and more.
+
+Key skills: Swift, C, Objective-C, C++, Objective-C++, video streaming, live performances, presentation software, networking, maintenance, Git, Agile, Atlassian, Bitbucket, Jira, CI/CD, UI/UX, native, macOS, startup
+
+
+
+Company: NCR - Small & Medium Business
+Duration: 2015 - 2016
+Position: Mobile Software Engineer
+Industry: Fintech
+
+Projects: NCR Silver
+
+Summary:
+- Built state-of-the-art point-of-sale software for iOS & Android.
+- Implemented headlining features: 64-bit support, EMV payments, scale-weighing of items, future orders.
+- Wrote drivers for necessary hardware.
+- Worked with design team to redesign the app’s look-and-feel.
+
+Key skills: Objective-C, C, Java, Kotlin, iOS, UIKit, Android, XML, XSLT, receipts, printing, barcode scanners, online orders, chip card, tap to pay, high volume
+
+
+
+
+Company: More Companies
+Duration: 2012 - 2019
+Position: Various Roles
+Industry: various
+
+Contract roles and non-career positions are listed at https://Resume.KyLeggiero.me/More
+
+
+
+---
+
+Education:
+
+
+
+Institution: Columbus State University
+Completion: 2014
+Certificate: Bachelor of Science in Computer Science
+Courses: Software Engineering, AI, Games Programming, Databases, Computer Networks, Software Architecture, Operating Systems & Kernels, and more.
+
+
+
+Institution: Georgia Gwinnett College – supplementary studies
+Completion: N/A
+Certificate: N/A
+Courses: Mathematics, music, philosophy, and more
+
+
+
+---
+
+Skills:
+
+
+
+Strongest skills:
+Swift, iOS, SwiftUI, UI/UX, macOS development, Cocoa, CocoaTouch, AppKit, UIKit, Maintainability, Architecture, Learning New Skills, Custom Control Design, Sketch (design app), Iconography, Figma, Accessibility, migration, platform migration, Git, repo, repositories, Agile, Agile Development Methodologies, Jira, mentorship, animations, native code, native platform development, native UI, CI/CD, Bitrise, Bitbucket, Azure DevOps, ADO, startups, lean startups, greenfield development, codebase maintenance, maintaining old code, maintainable code, code maintainability, scaling, scalability
+
+Expert in:
+Infosec, cryptography, encryption, encrypted files, Objective-C, Kotlin, Team Leadership, Organization, Open-Source, Frameworks / SDKs, Branding, App Design, workgroups, cross-team leadership, TDD, Test-Driven Development, maps, MapKit, GraphQL, cross-platform development, multi-platform development, scripting, user automation, automated user environments, computer networks, networking, tiger teams, HTML, CSS, JavaScript, XML, XSLT, JSON, CSV, file formats, plaintext formats
+
+Working Knowledge of:
+Backend APIs, Android, Web Design, Java, Flutter, Dart, hiring & interviewing, live network data development, high-volume data, livestreaming development, video streaming development, live chat development, high availability, presentation software, presentation software development, C++, C, Objective-C++, public-key cryptography, DHKE, eMail development, Windows development, Linux development, printing, receipts, barcodes, barcode scanners, online ordering development, card payments development, chip card payment development, EMV development, tap to pay development, tap-to-pay development, serverless, low-code, no-code, site reliability engineering
+
+
+
+---
+
+Personal website: https://KyLeggiero.me
+
+
+
+Web résumé:  https://Resume.KyLeggiero.me
+PDF résumé:  https://Resume.KyLeggiero.me/PDF
+
+Calendar:  https://KyLeggiero.me/Calendar
+Portfolio:  https://Resume.KyLeggiero.me/Portfolio
+
+LinkedIn:  https://LinkedIn.com/in/ky-leggiero
+StackOverflow:  https://StackOverflow.com/story/kyleggiero
+GitHub (Personal):  https://GitHub.com/KyLeggiero
+GitHub (Big Projects):  https://GitHub.com/BlueHuskyStudios
+GitHub (Utilities):  https://GitHub.com/RougeWare
+Blog:  https://Blog.KyLeggiero.me
+Mastodon:  https://Mastodon.social/@KyLeggiero
+E-mail:  Hire@KyLeggiero.me
+Phone:  +1 (470) 236-2534
+
+
+
+This text version of my résumé was written 2024-09-20

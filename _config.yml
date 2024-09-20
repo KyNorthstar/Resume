@@ -11,7 +11,7 @@ title: Ky's Résumé
 
 # Short bio or description (in share links)
 description: >
-    Staff Software Engineer with a passion for designing &amp;
+    Lead Software Engineer with a passion for designing &amp;
     making great products for Apple&nbsp;platforms
 
 source-code: https://GitHub.com/KyLeggiero/Resume
@@ -25,7 +25,7 @@ author:
         https://www.gravatar.com/avatar/2f4691f7a1c9d3192fe843a164a27535?s=280px
 
     professional:
-        title: Staff Apple Platform Software Engineer
+        title: Lead Software Engineer for Apple Platforms
         start-year: 2012
 
     social:
@@ -49,16 +49,15 @@ author:
             # disambiguation: 236-2534
             just-numbers: 14702362534
             only-for-urgencies: true
-        stackoverflow-suffix: story/kyleggiero
-        twitter-username: KyLeggiero
+        stackoverflow-suffix: users/453435/ky
         website: https://KyLeggiero.me
 
 date:
     originally-written: 2019-04-02
     newest:
-        web: 2024-02-12
-        pdf: 2024-05-28
-        txt: 2024-02-23
+        web: 2024-09-20
+        pdf: 2024-09-19
+        txt: 2024-09-20
         json: 2024-01-18
 
 document:
