@@ -15,7 +15,7 @@ page-specific-stylesheets:
 
 <article>
     <header class="tldr   flex-column flex-horiz-stretch flex-vert-center">
-        <p>{{ site.description }}</p>
+        <p>{%- if site.author.professsional.start-year -%}<strong>Since {{ site.author.professsional.start-year }}</strong> {%- endif -%} {{ site.description }}</p>
     </header>
 
     {% include contact-list.html %}
