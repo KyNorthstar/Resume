@@ -207,7 +207,6 @@ StackOverflow:  https://StackOverflow.com/story/kyleggiero
 GitHub (Personal):  https://GitHub.com/KyLeggiero
 GitHub (Big Projects):  https://GitHub.com/BlueHuskyStudios
 GitHub (Utilities):  https://GitHub.com/RougeWare
-Blog:  https://Blog.KyLeggiero.me
 Mastodon:  https://Mastodon.social/@KyLeggiero
 E-mail:  Hire@KyLeggiero.me
 Phone:  +1 (470) 236-2534
