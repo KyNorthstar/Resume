@@ -475,6 +475,7 @@ dl.like-bulleted-list {
         h6 {
             padding: 0 0 5mm;
             margin: 0;
+            text-align: center;
 
             i {
                 margin-right: 2pt;
@@ -484,6 +485,16 @@ dl.like-bulleted-list {
                 display: inline-block;
             }
         }
+        
+        p {
+            text-align: left;
+        }
+    }
+    
+    
+    & > .infobox-info {
+        flex-grow: 2;
+        max-width: var(--phone-landscape-small-max-width);
     }
 }
 
@@ -588,11 +599,6 @@ hr{
 
 
 
-figure.infobox > .infobox-info {
-    flex-grow: 2;
-    text-align: center;
-    max-width: var(--phone-landscape-small-max-width);
-}
 
 .infobox-with-dynamic-layout .infobox-subject {
   height: auto;
