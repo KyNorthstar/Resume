@@ -27,6 +27,20 @@ page-specific-stylesheets:
                 id='Employment'
             %}
                 {%- include resume/experience/infobox.html
+                    company='Major League Baseball'
+                    title='<span>Senior</span> <span>Soft&shy;ware</span> <span>En&shy;gi&shy;neer</span>'
+                    duration='<time datetime="2024-10-16">2024</time> – <i>now</i>'
+
+                    summary-line-1='Led company-wide migration to Swift structured concurrency, boosting performance & maintainability, reducing concurrency crashes by 95%. <br/>Executed precision migration of industry-scale codebase, preserving all business logic: zero-downtime transition with minimal learning curves.'
+                    summary-line-2='Developed migration roadmap & technical documentation, enabling 100+ engineers to adopt Swift concurrency patterns'
+                    summary-line-3='Augmented cross-platform layer to enable unified codebase serving universal apps for iOS, watchOS, iPadOS, & tvOS. <br/>Retooled legacy components for better integration, reducing technical debt while maintaining backward compatibility'
+
+                    url='https://MLB.com'
+                    logo-for-light-theme='/img/MLB-logo-lightMode.svg'
+                    logo-for-dark-theme='/img/MLB-logo-darkMode.svg'
+                    badge='entertainment'
+                %}
+                {%- include resume/experience/infobox.html
                     company='Realtor.com'
                     title='<span>Staff</span> <span>Soft&shy;ware</span> <span>En&shy;gi&shy;neer</span>'
                     duration='<time datetime="2022-05-31">2022</time> – <time datetime="2023-06-09">2023</time>'
@@ -141,24 +155,8 @@ page-specific-stylesheets:
                 %}
                 {%- include resume-spec-bar.html
                     skill='Kotlin'
-                    proficiency-out-of-10='10'
+                    proficiency-out-of-10='7'
                 %}
-                {%- include resume-spec-bar.html
-                    skill='HTML 5'
-                    proficiency-out-of-10='9'
-                %}
-                {%- include resume-spec-bar.html
-                    skill='CSS 2022'
-                    proficiency-out-of-10='10'
-                %}
-                {%- include resume-spec-bar.html
-                    skill='Sass / SCSS'
-                    proficiency-out-of-10='9'
-                %}
-                <!-- {%- include resume-spec-bar.html
-                    skill='Node'
-                    proficiency-out-of-10='4'
-                %} -->
 
 
                 {%- include resume-spec-list-section-divider.html -%}
@@ -177,19 +175,11 @@ page-specific-stylesheets:
                     proficiency-out-of-10='10'
                 %}
                 {%- include resume-spec-bar.html
-                    skill='Android'
+                    skill='watchOS'
                     proficiency-out-of-10='7'
                 %}
                 {%- include resume-spec-bar.html
-                    skill='JVM'
-                    proficiency-out-of-10='9'
-                %}
-                {%- include resume-spec-bar.html
-                    skill='Web <small>(Front-End)</small>'
-                    proficiency-out-of-10='10'
-                %}
-                {%- include resume-spec-bar.html
-                    skill='Frameworks / APIs'
+                    skill='Frameworks / SDKs'
                     proficiency-out-of-10='9'
                 %}
 
@@ -202,8 +192,8 @@ page-specific-stylesheets:
                     proficiency-out-of-10='9'
                 %}
                 {%- include resume-spec-bar.html
-                    skill='Multithreading'
-                    proficiency-out-of-10='8'
+                    skill='Concurrency'
+                    proficiency-out-of-10='10'
                 %}
                 {%- include resume-spec-bar.html
                     skill='Networking'
