@@ -2,9 +2,9 @@
   "format-version": "1.2.0",
   "meta": {
     "id": "2821559F-FD9C-4697-ACC2-427AFD4B6825",
-    "info-version": "5.2.1",
+    "info-version": "6.0.0",
     "title": "Résumé Basics",
-    "date-last-edited": "2024-09-27"
+    "date-last-edited": "2025-12-22"
   },
   "content": {
     "contact": {
@@ -370,6 +370,36 @@
 
         "keywords": ["Lead transition", "Guided", "Drove changes", "full redesign", "Documented & encoded"],
         "tags": ["tech", "staff-level", "software engineering", "staff engineer", "apps", "frameworks", "mobile", "iOS", "iPadOS", "Android", "desk job", "career", "remote", "coordination", "leadership"]
+      },
+      {
+        "id": "DD17F3B3-150F-4D45-B49B-B25C1ECFBAC0",
+        "company": {
+          "name": "MLB",
+          "name-long": "Major League Baseball",
+          "broad-location": "Boulder, CO, USA",
+          "address": "2755 Canyon Blvd, Boulder, Colorado, 80302, USA",
+          "phone-number": "+1 (303) 626-2071"
+        },
+        "start": {
+          "date": "2024-09-30",
+          "title": "Senior Software Engineer",
+          "description": "Led company-wide migration to Swift structured concurrency, boosting performance & maintainability, reducing concurrency crashes by 95%. \nAugmented cross-platform layer to enable unified codebase serving universal apps for iOS, watchOS, iPadOS, & tvOS \nExecuted precision migration of industry-scale codebase, preserving all business logic: zero-downtime transition with minimal learning curves. \nRetooled legacy components for better integration, reducing technical debt while maintaining backward compatibility \nDeveloped migration roadmap & technical documentation, enabling 100+ engineers to adopt Swift concurrency patterns",
+          "compensation": {
+            "type": "hourly",
+            "amount": 75,
+            "tier": "contractor"
+          }
+        },
+        "end": {
+            "date": "2025-12-19"
+        },
+        "reason-for-leaving": {
+          "brief": "contract",
+          "description": "Project cut short"
+        },
+
+        "keywords": ["Swift structured concurrency", "cross-platform", "universal apps", "iOS", "watchOS", "iPadOS", "tvOS", "95% crash reduction", "zero-downtime migration", "technical debt", "migration roadmap"],
+        "tags": ["tech", "software engineering", "senior-level", "apps", "frameworks", "mobile", "iOS", "iPadOS", "watchOS", "tvOS", "desk job", "career", "remote", "coordination", "leadership"]
       }
     ]
   }
