@@ -1,16 +1,17 @@
 {
-  "format-version": "1.0.0",
+  "format-version": "2.0.0",
   "meta": {
-    "info-version": "3.0.0",
+    "id": "10A340AB-6E34-4B83-A2B3-0424E65ECB4F",
+    "info-version": "3.1.0",
     "title": "Software Engineer",
-    "id": "10A340AB-6E34-4B83-A2B3-0424E65ECB4F"
+    "date-last-edited": "2025-12-22"
   },
-  "filters": {
-    "inclusion": "any",
+  "filters": [{
     "criteria": [
       {
         "scope": "tags",
         "type": "contains",
+        "inclusion": "any",
         "values": [
           "software engineering",
           "career"
@@ -19,11 +20,12 @@
       {
         "scope": "keywords",
         "type": "highlight",
+        "inclusion": "any",
         "values": [
           "developer",
           "designer"
         ]
       }
     ]
-  }
+  }]
 }
