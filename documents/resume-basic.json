@@ -2,7 +2,7 @@
   "format-version": "1.2.0",
   "meta": {
     "id": "2821559F-FD9C-4697-ACC2-427AFD4B6825",
-    "info-version": "6.0.0",
+    "info-version": "5.1.0",
     "title": "Résumé Basics",
     "date-last-edited": "2025-12-22"
   },
@@ -18,8 +18,8 @@
           "scheduling-widget-url": "https://KyLeggiero.me/Scheduling"
       },
       "email-address": "Hire@KyLeggiero.me",
-      "tagline": "Staff Software Engineer with a passion for designing & making great products for Apple platforms",
-      "website-url": "https://KyLeggiero.me",
+      "tagline": "Since 2007 • Lead Software Engineering, designing & making great products for Apple platforms",
+      "website-url": "https://KyLeggiero.me"
     },
     "work-history": [
       {
@@ -391,11 +391,11 @@
           }
         },
         "end": {
-            "date": "2025-12-19"
+            "date": "2025-12-26"
         },
         "reason-for-leaving": {
           "brief": "contract",
-          "description": "Project cut short"
+          "description": "Project cut short at Christmas"
         },
 
         "keywords": ["Swift structured concurrency", "cross-platform", "universal apps", "iOS", "watchOS", "iPadOS", "tvOS", "95% crash reduction", "zero-downtime migration", "technical debt", "migration roadmap"],
