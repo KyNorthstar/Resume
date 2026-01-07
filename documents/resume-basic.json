@@ -75,7 +75,7 @@
           }
         },
         "end": {
-          "end-date": "2014-02-17",
+          "date": "2014-02-17",
 
           "compensation": {
             "type": "hourly",
@@ -387,7 +387,7 @@
           "compensation": {
             "type": "hourly",
             "amount": 75,
-            "tier": "contractor"
+            "tier": "contract"
           }
         },
         "end": {
