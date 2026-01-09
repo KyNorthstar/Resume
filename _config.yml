@@ -45,20 +45,16 @@ author:
         phone:
             require-scheduled-call:
                 url: https://KyLeggiero.me/Scheduling
-            display-html: +1&nbsp;(470) 236-2534
-            # disambiguation: 236-2534
-            just-numbers: 14702362534
-            only-for-urgencies: true
         stackoverflow-suffix: users/453435/ky
         website: https://KyLeggiero.me
 
 date:
     originally-written: 2019-04-02
     newest:
-        web: 2025-04-28
-        pdf: 2025-04-28
-        txt: 2024-09-20
-        json: 2024-01-18
+        web: 2026-01-06
+        pdf: 2026-01-06
+        txt: 2026-01-09
+        json: 2026-01-06
 
 document:
     directory: /documents
