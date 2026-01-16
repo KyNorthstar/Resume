@@ -10,32 +10,59 @@ Schedule a call at KyLeggiero.me/Scheduling
 
 ---
 
-Software Engineer with over 17 years of experience, currently specializing in leading, creating, maintaining, & migrating iOS & macOS applications & frameworks across multiple teams, departments, & disciplines. Experience in porting applications to new platforms.  Skilled with UI/UX engineering as well, including flow design, accessibility, icons, interactive animations, and user interface layout. Worked within Agile teams.
-A full product lifecycle developer well-versed in CI/CD processes with services like Bitrise, GitHub Actions, ADO, Jenkins, CircleCI, Bitbucket Pipelines, and more.  
+Lead Software Engineer with over 19 years’ experience, currently specializing in Swift-based
+iOS/macOS/Apple application & framework leading, creating, maintaining, & migrating across
+multiple teams, departments, & disciplines. Experience in porting applications to new platforms.
+Skilled with UI/UX engineering as well, including flow design, accessibility, icons, interactive
+animations, user interface, layout, and more.
 
-- Git repositories & versioning. 
-- UI design implementation using code, SwiftUI, Storyboards, NIB/XIB files, XML, Compose, and more. Layout for adjustable windows & screens across device sizes.
-- Deep understanding of modern architecture patterns and principles including Composable, Reactive, FP, CUPID, OOP with SOLID, MVVM, MVP, MVC, and more. 
-- Coding with Swift, Kotlin, UI/UX designs, Objective-C, Rust, RESTful APIs, various frameworks including SwiftUI, UIKit, Core Data, AVFoundation, EventKit, AddressBook and CoreLocation. Familiar with learning new languages, platforms, & frameworks within a week.
+A full product lifecycle developer well-versed in CI/CD processes with services like Bitrise, GitHub Actions, ADO, Jenkins, CircleCI, Bitbucket Pipelines, and more.
+
+
+## Summary & Skills
+- Expert in Swift programming language: structured concurrency and unstructured, SwiftUI, composability, Swift package manager, copy-on-write, values & references, type theory, and more.
+- UI design implementation using code, SwiftUI, Storyboards, NIB/XIB files, XML, Compose, and more. Layout for adjustable windows/pages/screens across device sizes.
+- Deep understanding of modern architecture patterns and principles including Composable, Reactive, FP, CUPID, OOP with SOLID, MVVM, MVP, MVC, and more.
+- Coding with Swift, Kotlin, Objective-C, Rust, RESTful APIs, UI/UX designs, various frameworks including SwiftUI, UIKit, Core Data, AVFoundation, EventKit, AddressBook and CoreLocation.
+    - Familiar with learning new languages, platforms, & frameworks within a sprint.
 - Testing & bug fixing using TDD and test suites including XCTest, SwiftTest, AndroidX, NSLog & OSLog, Breakpoints, LLDB statements, and Instruments. Works with QA/QE to tighten test/release cycle. Experienced talking with customers & using results of UATs.
-- Incorporated data storage with SQLite, Core Data databases, Object Storage, AWS, GraphQL, direct filesystem storage, and more. 
-- Experienced in parsing including XML, JSON, and many others.
-- Integrated many services: 
-    - Adobe Analytics and Google Analytics.
-    - Auth0 for robust authentication services, ensuring seamless and secure user sign-up and login
-    - Biometric authentication (Face ID/Touch ID)
+- Experienced in parsing including XML, JSON, CSV, data streams, and many others.
+- Integrated many services, including but not limited to:
+    - Adobe Analytics, Google Analytics, Firebase, Crashlytics, and more
+    - Auth0, OAuth, GraphQL, AuthKit
+    - Biometrics (Face ID/Touch ID/etc.)
     - Apple's Push Notifications Service
-    - MapKit
-    - Apollo Client for GraphQL queries 
-    - Direct web service connections using URLSessionDataTask, sockets, SSL, TLS, DHKE, and more
+    - Proprietary APIs
+
+    - Apollo Client for GraphQL queries
+    - Direct webservice connections using URLSessionDataTask, sockets, SSL, TLS, DHKE, HTTP, TCP, UDP, and more
+- Cross-functional communication & stakeholder management
+- Organizational structure navigation to drive multi-department technical initiatives
+- Shipping quality software on-time & under-budget
+- Full product lifecycle engineer well-versed in CI/CD processes with services like Bitrise, GitHub Actions, ADO, Jenkins, CircleCI, Bitbucket Pipelines, and more.
+- Git repositories & versioning in GitHub (standard, Enterprise Cloud, Enterprise Server), GitLab, Bitbucket, and more. Using Git FLow, One Flow, monorepo, submodules, and more.
+- Incorporates data storage with SQLite, Core Data databases, Object Storage, AWS, GraphQL, direct filesystem storage, and more.
 
 
+## Employment:
+
+Company: Major League Baseball
+Duration: 2024-2026
+Position: Senior Software Engineer
+Industry: Entertainment
+
+Project: Transition MLB watchOS/iOS/tvOS platform to Swift 6 structured concurrency
+
+Summary:
+- Led company-wide migration to Swift structured concurrency, boosting performance & maintainability, reducing concurrency crashes by 95%.
+- Augmented cross-platform layer to enable unified codebase serving universal apps for iOS, watchOS, iPadOS, & tvOS
+- Executed precision migration of industry-scale codebase, preserving all business logic: zero-downtime transition with minimal learning curves.
+- Retooled legacy components for better integration, reducing technical debt while maintaining backward compatibility
+- Developed migration roadmap & technical documentation, enabling 100+ engineers to adopt Swift concurrency patterns
+
+Key skills: Swift, SwiftUI, async/await, universal apps, iOS, iPadOS, watchOS, tvOS, migration, Git, monorepo, agile, Jira, cross-team leadership, mentorship, custom frameworks, UI/UX, animations, native, cross-platform
 
 ---
-
-Employment:
-
-
 
 Company: Realtor.com
 Duration: 2022 - 2023
@@ -55,7 +82,7 @@ Summary:
 
 Key skills: Swift, SwiftUI, Flutter & Dart, iOS, migration, Git, agile, Jira, workgroups, cross-team leadership, mentorship, UI/UX, TDD, maps, MapKit, GraphQL, animations, native, cross-platform, repo scripting
 
-
+---
 
 Company: Yes Health
 Duration: 2021 - 2022
@@ -73,7 +100,7 @@ Summary:
 
 Key skills: Swift, SwiftUI, Objective-C, migration, Git, agile, Jira, cross-team leadership, hiring, mentorship, UI/UX, accessibility, TDD, live chat, GraphQL, native, repo scripting, multi-platform, iOS, Android, Kotlin, CI/CD, Bitrise, startup
 
-
+---
 
 Company: PKWare
 Duration: 2020 - 2021
@@ -90,7 +117,7 @@ Summary:
 
 Key skills: Swift, C++, encryption, cryptography, public-key, DHKE, user automation, accessibility, networking, eMail, tiger team, greenfield, maintenance, Git, agile, ADO, UI/UX, native, repo scripting, multi-platform, macOS, iOS, CI/CD, Jira
 
-
+---
 
 Company: Ionic Security
 Duration: 2017 - 2019
@@ -107,7 +134,7 @@ Summary:
 
 Key skills: Swift, C, Objective-C, C++, Objective-C++, encryption, accessibility, networking, encrypted file manager, maintenance, Git, agile, ADO, UI/UX, native, repo scripting, multi-platform, macOS, Windows, Linux, CI/CD, Jira, startup
 
-
+---
 
 Company: Renewed Vision
 Duration: 2016 - 2017
@@ -124,7 +151,7 @@ Summary:
 
 Key skills: Swift, C, Objective-C, C++, Objective-C++, video streaming, live performances, presentation software, networking, maintenance, Git, Agile, Atlassian, Bitbucket, Jira, CI/CD, UI/UX, native, macOS, startup
 
-
+---
 
 Company: NCR - Small & Medium Business
 Duration: 2015 - 2016
@@ -141,11 +168,10 @@ Summary:
 
 Key skills: Objective-C, C, Java, Kotlin, iOS, UIKit, Android, XML, XSLT, receipts, printing, barcode scanners, online orders, chip card, tap to pay, high volume
 
-
-
+---
 
 Company: More Companies
-Duration: 2012 - 2019
+Duration: 2012 - 2026
 Position: Various Roles
 Industry: various
 
@@ -153,9 +179,7 @@ Contract roles and non-career positions are listed at https://Resume.KyLeggiero.
 
 
 
----
-
-Education:
+## Education:
 
 
 
@@ -209,8 +233,8 @@ GitHub (Big Projects):  https://GitHub.com/BlueHuskyStudios
 GitHub (Utilities):  https://GitHub.com/RougeWare
 Mastodon:  https://Mastodon.social/@KyLeggiero
 E-mail:  Hire@KyLeggiero.me
-Phone:  +1 (470) 236-2534
+Calls: https://KyLeggiero.me/Call
 
 
 
-This text version of my résumé was written 2024-09-20
+This text version of my résumé was written 2026-01-09
