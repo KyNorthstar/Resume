@@ -122,7 +122,7 @@ main {
         &.big.button,
         &:link,
         &:visited {
-            max-width: calc(var(--portfolio-card-width) + 5mm);
+            max-width: calc(var(--portfolio-card-width) + 12mm);
             margin: 1cm 5mm;
 
             .portfolio-card-text {

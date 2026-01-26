@@ -10,22 +10,6 @@ subtitle: "Portfolio"
 portfolio:
     packages:
         -
-            title: "Swift Lazy Containers"
-            description: "A few lazy-initialization container types for Swift 5.1+"
-            url: "https://github.com/RougeWare/Swift-Lazy-Containers"
-        -
-            title: "Swift SemVer"
-            description: "A small Swift library that implements SemVer 2.0.0"
-            url: "https://github.com/RougeWare/Swift-SemVer"
-        -
-            title: "Swift Rectangle Tools"
-            description: "A set of Swift utilities for dealing with rectangles, including a way to generically build your own!"
-            url: "https://github.com/RougeWare/Swift-Rectangle-Tools"
-        -
-            title: "Swift Special String"
-            description: "Ever need a string but also wish it weren't a <code>String</code> type?"
-            url: "https://github.com/RougeWare/Swift-Special-String"
-        -
             title: "Swift Safe Pointer"
             description: "Lets you pass anything using reference semantics without the danger of unsafe pointers"
             url: "https://github.com/RougeWare/Swift-Safe-Pointer"
@@ -34,78 +18,57 @@ portfolio:
             description: "Uses <code>DispatchQueue</code> to ensure a value is only read from and written to by one thread at a time"
             url: "https://github.com/RougeWare/Swift-Atomic"
         -
-            title: "Swift Safe Collection Access"
-            description: "Ever wonder why Swift crashes if you access a collection the wrong way? Me too here's some extensions"
-            url: "https://github.com/RougeWare/Swift-Safe-Collection-Access"
-        -
-            title: "Swift <code>TODO()</code>"
-            description: "For when you know you're gonna get to something, but right now you have other priorities."
-            url: "https://github.com/RougeWare/Swift-TODO"
-        -
-            title: "Swift Cross-Kit Types"
-            description: "Some types and extensions for those using AppKit and UIKit in the same project"
-            url: "https://github.com/RougeWare/Swift-Cross-Kit-Types"
-        -
-            title: "Swift Optional Tools"
-            description: "Some tools to make Optionals easier to use"
-            url: "https://github.com/RougeWare/Swift-Optional-Tools"
-        -
-            title: "Swift Mul&shy;ti&shy;pli&shy;ca&shy;tive Arith&shy;me&shy;tic"
-            description: "Formalizes an object's ability to be multiplied by something"
-            url: "https://github.com/RougeWare/Swift-MultiplicativeArithmetic"
-        -
             title: "SwiftUI Seven-Segment Display"
             description: "A 7-segment display for SwiftUI"
             url: "https://github.com/RougeWare/SwiftUI-SevenSegmentDisplay"
-        -
-            title: "Swift Drawing Tools"
-            description: "Some tools to help with drawing in Swift"
-            url: "https://github.com/RougeWare/Swift-Drawing-Tools"
-        -
-            title: "Swift Serialization Tools"
-            description: "Some tools to help with drawing in Swift"
-            url: "https://github.com/RougeWare/Swift-SerializationTools"
         -
             title: "Swift PropertyWrapper Protocol"
             description: "Lets you reference property wrappers as protocols"
             url: "https://github.com/RougeWare/Swift-PropertyWrapper-Protocol"
         -
-            title: "Swift Simple Logging"
-            description: "For when you need something more advanced than print, but not a whole heavy system"
-            url: "https://github.com/RougeWare/Swift-Simple-Logging"
-        -
             title: "Swift Collection Tools"
             description: "A bunch of tools I tend to write to make collections easier to use"
             url: "https://github.com/RougeWare/Swift-Collection-Tools"
-        -
-            title: "Swift Function Tools"
-            description: "Some tools to make functions easier to use in Swift"
-            url: "https://github.com/RougeWare/Swift-Function-Tools"
-        -
-            title: "Swift Color Swatches"
-            description: "Turn an NSColor or UIColor into an image"
-            url: "https://github.com/RougeWare/Swift-Color-Swatches"
         -
             title: "Swift Basic Math Tools"
             description: "Some basic tools for doing math in Swift"
             url: "https://github.com/RougeWare/Swift-Basic-Math-Tools"
         -
-            title: "Swift String Integer Access"
-            description: "I hate how Swift <code>String</code>s don't let you access their characters with <code>Int</code>s. This package lets you do just that."
-            url: "https://github.com/RougeWare/Swift-String-Integer-Access"
+            title: "<code>delete-duplicate-files</code>"
+            description: "A small utility to delete all files in a folder matching the given hashes"
+            url: "https://github.com/RougeWare/delete-duplicate-files"
         -
-            title: "Swift Safe Collection Access"
-            description: "Ever wonder why Swift crashes if you access a collection the wrong way? Me too here's some extensions"
-            url: "https://github.com/RougeWare/Swift-Safe-Collection-Access"
-
-
-
+            title: "Micro JS Enum"
+            description: "94 bytes to bring enums to JavaScript"
+            url: "https://github.com/RougeWare/Micro-JS-Enum"
+        -
+            title: "Micro JS Tagify"
+            description: "154 bytes of JavaScript for turning user input like \"tag-a,tag-b tag-c\" into HTML tags"
+            url: "https://github.com/RougeWare/Micro-JS-Tagify"
+        -
+            title: "Micro JS Equals"
+            description: "A 157-byte, fully-functional JavaScript global .equals() implementation"
+            url: "https://github.com/RougeWare/Micro-JS-Equals"
+        -
+            title: "Micro JS Array Shuffle"
+            description: "An array shuffler in 140 bytes"
+            url: "https://github.com/RougeWare/Micro-JS-Array-Shuffle"
 ---
 
 {% include portfolio-section-start.html
     title='Big Projects'
     id='big-projects'
+    aside='These are the most impactful projects I\'ve worked on'
 -%}
+    {%- include portfolio-item-large.html
+        title='MLB for watchOS'
+        description='MLB\'s official Watch app'
+        url='https://www.mlb.com/apps/mlb-app'
+        my-contributions='<p>Led company-wide migration to Swift structured concurrency, boosting performance & maintainability, reducing concurrency crashes by 95%. <br/>Executed precision migration of industry-scale codebase, preserving all business logic: zero-downtime transition with minimal learning curves.</p><p>Developed migration roadmap & technical documentation, enabling 100+ engineers to adopt Swift concurrency patterns</p><p>Augmented cross-platform layer to enable unified codebase serving universal apps for iOS, watchOS, iPadOS, & tvOS. <br/>Retooled legacy components for better integration, reducing technical debt while maintaining backward compatibility</p>'
+        image-url='/img/MLB-logo-lightMode.svg'
+        image-url-for-dark-theme='/img/MLB-logo-darkMode.svg'
+        image-full-bleed=false
+    -%}
     {%- include portfolio-item-large.html
         title='Realtor.com for iOS'
         description='Real Estate & Rentals app'
@@ -146,7 +109,7 @@ portfolio:
     {%- include portfolio-item-large.html
         title='PVP 3'
         description='Elegant &amp; powerful video streaming software for statium-tier events'
-        url='https://RenewedVision.com/ProVideoPlayer/'
+        url='https://renewedvision.com/provideoplayer'
         image-url='/img/PVP3.png'
         image-full-bleed=false
     -%}
@@ -165,7 +128,7 @@ portfolio:
         image-full-bleed=false
     -%}
     {%- include portfolio-item-large.html
-        title='The CSU website'
+        title='The CSU websites'
         description='Over 100 specialized websites in one modern, responsive design that maintains compatibility with IE 8 through the latest Chrome. CMS integration allows school employees to maintain their own sub-sites'
         url='https://ColumbusState.edu'
         image-url='/img/ColumbusState.edu screenshot.png'
@@ -190,18 +153,25 @@ portfolio:
         image-full-bleed=true
     -%}
     {%- include portfolio-item-large.html
+        title='Project HOSTESS'
+        description='Work-in-progress project to create an extensible task management system'
+        url='https://Split.Rent'
+        image-url='https://avatars.githubusercontent.com/u/63386149?v=4?s=400'
+        image-full-bleed=true
+    -%}
+    {%- include portfolio-item-large.html
+        title='Rent Split'
+        description='Calculates how to split rent fairly based on income'
+        url='https://Split.Rent'
+        image-url='https://Split.Rent/images/Logo.png'
+        image-full-bleed=true
+    -%}
+    {%- include portfolio-item-large.html
         title='Swift Mines'
         description='A clean and modern Mines game for macOS, written in SwiftUI and published on the Mac App Store'
         url='https://github.com/BlueHuskyStudios/Swift-Mines/releases'
         image-url='https://raw.githubusercontent.com/BlueHuskyStudios/Swift-Mines/master/Swift%20Mines/Swift%20Mines%20for%20macOS/Assets/Assets.xcassets/AppIcon.appiconset/Mines%20Icon%20(512p)%402x.png'
         image-full-bleed=false
-    -%}
-    {%- include portfolio-item-large.html
-        title='Rent-Split'
-        description='Calculates how to split rent fairly based on income'
-        url='https://Rent-Split.BHStudios.org'
-        image-url='https://Split.Rent/_img/Logo%201.1.0%20(1024p).png'
-        image-full-bleed=true
     -%}
 <!--
     {%- include portfolio-item-large.html
@@ -222,7 +192,7 @@ portfolio:
 
 
 {% capture open-source-contributions-aside %}
-These are only projects to which I\'ve made notable contributions, but which I don\'t own. There are many which are not listed here to which I have made small contributions. For those which I own, see my GitHub profiles (<a href="https://GitHub.com/{{ author.social.github-suffix.personal }}" target="_blank">personal</a> andor <a href="https://GitHub.com/{{ author.social.github-suffix.big-projects }}" target="_blank">big projects</a>).
+These are others' projects to which I\'ve made notable contributions, but which I don\'t own. There are many which are not listed here to which I have made small contributions. <br/>For those which I own, see <a href="https://KyLeggiero.me/" target="_blank">my GitHub</a>.
 {% endcapture %}
 
 
@@ -263,21 +233,49 @@ These are only projects to which I\'ve made notable contributions, but which I d
 {% capture open-source-packages-aside %}
 A lot of my open-source projects lately are small library packages published under <a href="https://GitHub.com/{{ site.author.social.github-suffix.utilities }}" target="_blank">{{ site.author.social.github-suffix.utilities }}</a>.
 {% endcapture %}
+
+<!--
+https://swiftpackageindex.com/RougeWare/collection.json
+-->
+
 {% include portfolio-subsection-start.html
     title='My Open-Source packages'
     id='my-open-source-projects'
     aside=open-source-packages-aside
--%}
+%}
+        <h3>My contributions to the <a href="https://swiftpackageindex.com/RougeWare" target="_blank">Swift Package Index</a></h3>
     {% include portfolio-list-start.html -%}
-
-    {% for package in page.portfolio.packages -%}
-        {%- include portfolio-item-small.html
-            title=package.title
-            description=package.description
-            url=package.url
-        -%}
-    {% endfor %}
-
+    
+        {% for package in site.data.RougeWare-Swift-Packages.collection.packages -%}
+            {% assign mostRecentVersion = package.versions[0].manifests.first[1] -%}
+            {%- include portfolio-item-small.html
+                title=mostRecentVersion.packageName
+                description=package.summary
+                url=package.url
+            -%}
+        {% endfor -%}
+        
+        <!--
+        {% for package in page.portfolio.packages -%}
+            {%- include portfolio-item-small.html
+                title=package.title
+                description=package.description
+                url=package.url
+            -%}
+        {% endfor %}
+        -->
+    {% include portfolio-list-end.html %}
+    
+    
+    <h3>My other packages</h3>
+    {% include portfolio-list-start.html -%}
+        {% for package in page.portfolio.packages -%}
+            {%- include portfolio-item-small.html
+                title=package.title
+                description=package.description
+                url=package.url
+            -%}
+        {% endfor %}
     {% include portfolio-list-end.html %}
 {%- include portfolio-subsection-end.html -%}
 
@@ -289,30 +287,6 @@ A lot of my open-source projects lately are small library packages published und
 {% include portfolio-subsection-start.html
     title='The Rest Of My Open-Source Projects'
     id='my-open-source-projects'
-    aside='The rest of my projects, including this site and several apps, are separated into these three GitHub repos:'
 -%}
-    {%- if site.author.social.github-suffix.personal -%}
-        {%- capture github-personal-url -%}https://github.com/{{ site.author.social.github-suffix.personal }}{%- endcapture -%}
-        {%- include portfolio-item-button.html
-            title='GitHub <small>(Personal)</small>'
-            url=github-personal-url
-            fa-icon='fab fa-github'
-        -%}
-    {%- endif -%}
-    {%- if site.author.social.github-suffix.big-projects -%}
-        {%- capture github-big-projects-url -%}https://github.com/{{ site.author.social.github-suffix.big-projects }}{%- endcapture -%}
-        {%- include portfolio-item-button.html
-            title='GitHub <small>(Big Projects)</small>'
-            url=github-big-projects-url
-            fa-icon='fab fa-github'
-        -%}
-    {%- endif -%}
-    {%- if site.author.social.github-suffix.utilities -%}
-        {%- capture github-utilities-url -%}https://github.com/{{ site.author.social.github-suffix.utilities }}{%- endcapture -%}
-        {%- include portfolio-item-button.html
-            title='GitHub <small>(Utilities)</small>'
-            url=github-utilities-url
-            fa-icon='fab fa-github'
-        -%}
-    {%- endif -%}
+    <big>The rest of my projects, including this site and several apps, are public on <a href="https://KyLeggiero.me/GitHub" target="_blank">my GitHub</a>.</big>
 {%- include portfolio-subsection-end.html -%}
