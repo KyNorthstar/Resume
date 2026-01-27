@@ -155,7 +155,7 @@ portfolio:
     {%- include portfolio-item-large.html
         title='Project HOSTESS'
         description='Work-in-progress project to create an extensible task management system'
-        url='https://Split.Rent'
+        url='https://github.com/Project-HOSTESS'
         image-url='https://avatars.githubusercontent.com/u/63386149?v=4?s=400'
         image-full-bleed=true
     -%}
@@ -192,7 +192,7 @@ portfolio:
 
 
 {% capture open-source-contributions-aside %}
-These are others' projects to which I\'ve made notable contributions, but which I don\'t own. There are many which are not listed here to which I have made small contributions. <br/>For those which I own, see <a href="https://KyLeggiero.me/" target="_blank">my GitHub</a>.
+These are others' projects to which I\'ve made notable contributions, but which I don\'t own. There are many which are not listed here to which I have made small contributions. <br/>For those which I own, see <a href="https://KyLeggiero.me/GitHub" target="_blank">my GitHub</a>.
 {% endcapture %}
 
 
@@ -254,16 +254,6 @@ https://swiftpackageindex.com/RougeWare/collection.json
                 url=package.url
             -%}
         {% endfor -%}
-        
-        <!--
-        {% for package in page.portfolio.packages -%}
-            {%- include portfolio-item-small.html
-                title=package.title
-                description=package.description
-                url=package.url
-            -%}
-        {% endfor %}
-        -->
     {% include portfolio-list-end.html %}
     
     
