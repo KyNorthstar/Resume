@@ -14,7 +14,7 @@ description: >
     Lead Software Engineer with a passion for designing &amp;
     making great products for Apple&nbsp;platforms
 
-source-code: https://GitHub.com/KyLeggiero/Resume
+source-code: https://GitHub.com/KyNorthstar/Resume
 
 author:
     name: Ky
@@ -31,17 +31,18 @@ author:
     social:
         #blog: https://Blog.KyLeggiero.me
         calendar: https://KyLeggiero.me/Calendar
-        calendar-email: KyLeggiero@Gmail.com
+        calendar-email: Scheduling@KyLeggiero.me
         personal-site: https://KyLeggiero.me
         contact-and-more: https://KyLeggiero.me
         email: Hire@KyLeggiero.me
+        github: https://KyLeggiero.me/GitHub
         github-suffix:
-            this: KyLeggiero/resumes
-            personal: KyLeggiero
+            personal: KyNorthstar
             big-projects: BlueHuskyStudios
             utilities: RougeWare
         linkedin-username: ky-leggiero
-        mastodon: https://Mastodon.Social/@KyLeggiero
+        bsky: KyNorthstar.me
+        mastodon: https://Mastodon.Social/@KyNorthstar
         phone:
             require-scheduled-call:
                 url: https://KyLeggiero.me/Scheduling

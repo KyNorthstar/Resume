@@ -138,10 +138,13 @@ main {
             flex-grow: 1;
             flex-shrink: 0;
             width: var(--mini-card-ideal-height);
+            
+            border-radius: calc(var(--button-border-radius) - var(--button-border-width));
             border-block-end-inline-end-radius: 0;   // scss-lint:disable PropertySpelling
             border-block-start-inline-end-radius: 0; // scss-lint:disable PropertySpelling
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
+            
             background: var(--theme-background-color-at-level-3);
             transition-property: background;
         }

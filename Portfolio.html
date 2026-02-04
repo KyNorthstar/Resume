@@ -14,10 +14,6 @@ portfolio:
             description: "Lets you pass anything using reference semantics without the danger of unsafe pointers"
             url: "https://github.com/RougeWare/Swift-Safe-Pointer"
         -
-            title: "Swift Atomic"
-            description: "Uses <code>DispatchQueue</code> to ensure a value is only read from and written to by one thread at a time"
-            url: "https://github.com/RougeWare/Swift-Atomic"
-        -
             title: "SwiftUI Seven-Segment Display"
             description: "A 7-segment display for SwiftUI"
             url: "https://github.com/RougeWare/SwiftUI-SevenSegmentDisplay"
@@ -25,14 +21,6 @@ portfolio:
             title: "Swift PropertyWrapper Protocol"
             description: "Lets you reference property wrappers as protocols"
             url: "https://github.com/RougeWare/Swift-PropertyWrapper-Protocol"
-        -
-            title: "Swift Collection Tools"
-            description: "A bunch of tools I tend to write to make collections easier to use"
-            url: "https://github.com/RougeWare/Swift-Collection-Tools"
-        -
-            title: "Swift Basic Math Tools"
-            description: "Some basic tools for doing math in Swift"
-            url: "https://github.com/RougeWare/Swift-Basic-Math-Tools"
         -
             title: "<code>delete-duplicate-files</code>"
             description: "A small utility to delete all files in a folder matching the given hashes"
@@ -192,7 +180,7 @@ portfolio:
 
 
 {% capture open-source-contributions-aside %}
-These are others' projects to which I've made notable contributions, but which I don't own. There are many which are not listed here to which I have made small contributions. <br/>For those which I own, see <a href="https://KyLeggiero.me/GitHub" target="_blank">my GitHub</a>.
+These are others' projects to which I've made notable contributions, but which I don't own. There are many which are not listed here which I've made small contributions to. <br/>For those which I own, see <a href="https://KyLeggiero.me/GitHub" target="_blank">my GitHub</a>.
 {% endcapture %}
 
 
@@ -243,7 +231,7 @@ https://swiftpackageindex.com/RougeWare/collection.json
     id='my-open-source-projects'
     aside=open-source-packages-aside
 %}
-        <h3>My contributions to the <a href="https://swiftpackageindex.com/RougeWare" target="_blank">Swift Package Index</a></h3>
+        <h3>My {{ site.data.RougeWare-Swift-Packages.collection.packages.size }} contributions to the <a href="https://swiftpackageindex.com/RougeWare" target="_blank">Swift Package Index</a></h3>
     {% include portfolio-list-start.html -%}
     
         {% for package in site.data.RougeWare-Swift-Packages.collection.packages -%}
@@ -257,7 +245,7 @@ https://swiftpackageindex.com/RougeWare/collection.json
     {% include portfolio-list-end.html %}
     
     
-    <h3>My other packages</h3>
+    <h3>My {{ page.portfolio.packages.size }} other packages</h3>
     {% include portfolio-list-start.html -%}
         {% for package in page.portfolio.packages -%}
             {%- include portfolio-item-small.html
@@ -278,5 +266,5 @@ https://swiftpackageindex.com/RougeWare/collection.json
     title='The Rest Of My Open-Source Projects'
     id='my-open-source-projects'
 -%}
-    <big>The rest of my projects, including this site and several apps, are public on <a href="https://KyLeggiero.me/GitHub" target="_blank">my GitHub</a>.</big>
+<big>The rest of my projects, including {% if site.source-code -%} <a href="{{ site.source-code }}" target="_blank">this site</a> {%- else -%} this site {%- endif %} and a few apps, are public on <a href="{{ site.author.social.github | default: 'https://KyLeggiero.me' }}" target="_blank">my GitHub</a>.</big>
 {%- include portfolio-subsection-end.html -%}
