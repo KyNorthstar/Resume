@@ -35,9 +35,9 @@
 {%- endif %}
 
 {% if page.description -%}
-{%- assign description = page.description | strip -%}
+{%- assign description = page.description | markdownify | strip_html | strip -%}
 {%- else -%}
-{%- assign description = site.description | strip -%}
+{%- assign description = site.description | markdownify | strip_html | strip -%}
 {%- endif -%}
 
 <meta name="description"                           content="{{ description }}" property="og:description"/>
