@@ -12,7 +12,7 @@
                     <a class="infobox-subject" href="{{ include.url }}" target="_blank" style="background-image: url('{{ include.logo | default: include.logo-for-light-theme }}')" {%- if include.logo-for-dark-theme %} data-required-theme-type="light" {%- endif %}></a>
                     {%- endif %}
                     <figcaption class="infobox-info">
-                        <h2>{{ include.company | default: 'company' }} <small>({{ include.duration | default: 'duration' }})</small></h2>
+                        <h2>{{ include.company | default: 'company' }} {%- if include.duration %} <small>({{ include.duration }})</small> {%- endif -%}</h2>
                         {%- if include.title %}
                         <h3>{{ include.title }}</h3>
                         {%- endif %}

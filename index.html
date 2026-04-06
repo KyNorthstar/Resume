@@ -129,6 +129,35 @@ page-specific-stylesheets:
             {%- include resume/experience/list-end.html more-button-href='/More' %}
 
             {%- include resume/experience/list-start.html
+                title='Edu&shy;ca&shy;tion'
+                id='Education'
+            %}
+                {%- include resume/experience/infobox.html
+                    company='<span>Co&shy;lum&shy;bus</span> State <span>Uni&shy;ver&shy;sity</span>'
+                    title='<span>Bach&shy;e&shy;lor</span> of <span>Sci&shy;ence</span> in <span>Com&shy;put&shy;er</span> <span>Sci&shy;ence</span>'
+                    duration='<span>Geor&shy;gia</span>, <time datetime="2014-05-12">2014</time>'
+                    
+                    summary-line-1='Software Engineering, Artificial Intelligence, Games Programming, Databases, Computer Networks, Software Architecture, Operating Systems, and more.'
+
+                    url='https://ColumbusState.edu'
+                    logo-for-light-theme='/img/CSU_Logo_Tower_WhiteBackground.svg'
+                    logo-for-dark-theme='/img/CSU_Logo_Tower_BlueBackground.svg'
+                %}
+                {%- include resume/experience/infobox.html
+                    company='<span>Geor&shy;gia</span> <span>Gwin&shy;nett</span> <span>Coll&shy;ege</span>'
+                    title='<span>Sup&shy;ple&shy;men&shy;ta&shy;ry</span> <span>stud&shy;ies</span>'
+                    
+                    summary-line-1='Calculus, music, philosophy, sociology, and more.'
+
+                    url='https://ColumbusState.edu'
+                    logo-for-light-theme='/img/GGC-logo-lightMode.svg'
+                    logo-for-dark-theme='/img/GGC-logo-darkMode.svg'
+                %}
+            {%- include resume/experience/list-end.html %}
+        </main>
+
+        <section class="sidebar-right">
+            {%- include resume/experience/list-start.html
                 title='Ex&shy;per&shy;tise'
                 id='Expertise'
             %}
@@ -136,9 +165,9 @@ page-specific-stylesheets:
                     company='<span>AI/ML Dev&shy;el&shy;op&shy;ment</span>'
                     duration='<time datetime="2013">2013</time> - <i>Present</i>'
 
-                    summary-line-1='Creating, fine-tuning, &amp; deploying bespoke models. Experience with ANNs, as well as genetic algorithms and other non-ANN technologies.'
-                    summary-line-2='Building workflows with OSS models, including Stable Diffusion, Flux, Llama, Dolphin Mixtral, and others. Experience with LoRAs, evaluation frameworks, ComfyUI workflows.'
-                    summary-line-3='Extensive work with both open-source and commercial AI systems for product development.'
+                    summary-line-1='Extensive work with both open-source &amp; commercial AI systems for product development.'
+                    summary-line-2='Building workflows with proprietary &amp; OSS models, including Claude, Stable Diffusion, GPT, Flux, Llama, Dolphin Mixtral, and others. Experience with LoRAs, evaluation frameworks, modelfiles, ComfyUI workflows.'
+                    summary-line-3='Creating, fine-tuning, &amp; deploying bespoke models. Experience with ANNs, as well as genetic algorithms and other non-ANN technologies.'
                 %}
                 {%- include resume/experience/infobox.html
                     company='<span>Data Sys&shy;tems</span> &amp; <span>Knowl&shy;edge Graphs</span>'
@@ -149,24 +178,7 @@ page-specific-stylesheets:
                     summary-line-3='Designed &amp; implemented wiki systems, object stores, and knowledge management platforms from scratch.'
                 %}
             {%- include resume/experience/list-end.html %}
-
-            {%- include resume/experience/list-start.html
-                title='Edu&shy;ca&shy;tion'
-                id='Education'
-            %}
-                {%- include resume/experience/infobox.html
-                    company='<span>Co&shy;lum&shy;bus</span> State <span>Uni&shy;ver&shy;sity</span>'
-                    title='<span>Bach&shy;e&shy;lor</span> of <span>Sci&shy;ence</span> in <span>Com&shy;put&shy;er</span> <span>Sci&shy;ence</span>'
-                    duration='<span>Geor&shy;gia</span>, <time datetime="2014-05-12">2014</time>'
-
-                    url='https://ColumbusState.edu'
-                    logo-for-light-theme='/img/CSU_Logo_Tower_WhiteBackground.svg'
-                    logo-for-dark-theme='/img/CSU_Logo_Tower_BlueBackground.svg'
-                %}
-            {%- include resume/experience/list-end.html %}
-        </main>
-
-        <section class="sidebar-right">
+            
             {% include resume-spec-list-start.html
                 title='Tech Specs'
                 id='Tech-Specs'
