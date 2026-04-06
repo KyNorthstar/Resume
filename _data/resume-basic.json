@@ -1,11 +1,15 @@
 {
-  "format-version": "1.2.0",
+  "format-version": "2.0.0",
+  
   "meta": {
     "id": "2821559F-FD9C-4697-ACC2-427AFD4B6825",
-    "info-version": "5.1.0",
+    "info-version": "5.2.0",
     "title": "Résumé Basics",
     "date-last-edited": "2025-12-22"
   },
+  
+  
+  
   "content": {
     "contact": {
       "id": "FE07ABFD-12B7-4C27-828C-CAD99FA251A9",
@@ -21,6 +25,9 @@
       "tagline": "Since 2007 • Lead Software Engineering, designing & making great products for Apple platforms",
       "website-url": "https://KyLeggiero.me"
     },
+    
+    
+    
     "work-history": [
       {
         "id": "A4E4759E-0885-4480-B1C0-39CE15BFE335",
@@ -313,8 +320,15 @@
         },
         "start": {
           "date": "2021-02-01",
-          "title": "Lead Software Engineer",
-          "description": "Coordinated engineering multiple health products across multiple platforms. Transitioned old Objective-C + UIKit codebase to Swift + SwiftUI. Brought new levels of diversity & inclusion to the teams & products.\nImplemented department-wide processes & best practices such as agile kanban sprints, version control, a documentation system, et cetera.\n\nWorked with UI/UX team to redesign & rebrand those products.",
+          "title": "Founding Software Engineer",
+          "description": [
+            "Spearheaded hiring efforts, growing team from 1 to 3 engineers.",
+            "Led the engineering of multiple health & wellness products across multiple platforms",
+            "Executed platform migration from offshore Objective-C+UIKit to inhouse Swift+SwiftUI.",
+            "Improved product & company DEI.",
+            "Set department-wide processes & best practices: agile kanban sprints, version control, documentation system, etc.",
+            "Worked with UI/UX team to redesign & rebrand those products."
+          ],
           "compensation": {
             "type": "yearly",
             "amount": 130000,
@@ -400,6 +414,71 @@
 
         "keywords": ["Swift structured concurrency", "cross-platform", "universal apps", "iOS", "watchOS", "iPadOS", "tvOS", "95% crash reduction", "zero-downtime migration", "technical debt", "migration roadmap"],
         "tags": ["tech", "software engineering", "senior-level", "apps", "frameworks", "mobile", "iOS", "iPadOS", "watchOS", "tvOS", "desk job", "career", "remote", "coordination", "leadership"]
+      }
+    ],
+    
+    
+    
+    "expertise": [
+      {
+        "id": "95741663-530E-4A02-A9FD-0075AFD2A3C7",
+        "title": "AI/ML Development",
+        "start": "2013",
+        "experience": [
+          "Creating, fine-tuning, & deploying bespoke models. Experience with ANNs, as well as genetic algorithms and other non-ANN technologies.",
+          "Building workflows with OSS models, including Stable Diffusion, Flux, Llama, Dolphin Mixtral, and others. Experience with LoRAs, evaluation frameworks, ComfyUI workflows.",
+          "Extensive work with both open-source and commercial AI systems for product development."
+        ]
+      },
+      {
+        "id": "A4E97279-78A6-4B92-B744-C1D51F6CF561",
+        "title": "Knowledge Graphs & Data Systems",
+        "start": "2008",
+        "experience": [
+          "Built Simpedia (2007 - 2009), then the world's largest knowledgebase on The Sims",
+          "Production experience with SQL, NoSQL, ADO, GraphQL+Apollo, and custom graph database & object-store implementations",
+          "Designed & implemented wiki systems and knowledge management platforms from scratch"
+
+        ]
+      }
+    ],
+    
+    
+    
+    "education": [
+      {
+        "id": "5AC5D33E-7021-4C06-B15E-7484F3050978",
+        "institution": "Columbus State University",
+        "end": {
+          "certified": true,
+          "date": "2014"
+        },
+        "type": {
+          "degree": "Bachelor of Science",
+          "major": "Computer Science"
+        },
+        "topics": [
+          "Software Engineering",
+          "Artificial Intelligence",
+          "Games Programming",
+          "Databases",
+          "Computer Networks",
+          "Software Architecture",
+          "Operating Systems"
+        ]
+      },
+      {
+        "id": "D889997E-A02A-4BD7-8FDE-B3B24FA0D49E",
+        "institution": "Georgia Gwinnett College",
+        "type": {
+          "supplementary": true
+        },
+        "topics": [
+          "Calculus",
+          "music",
+          "philosophy",
+          "sociology"
+        ]
       }
     ]
   }

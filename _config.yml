@@ -11,8 +11,11 @@ title: Ky's Résumé
 
 # Short bio or description (in share links)
 description: >
-    Lead Software Engineer with a passion for designing &amp;
-    making great products for Apple&nbsp;platforms
+    **Lead Software Engineer with over 19 years’ experience**, currently specializing in **Swift**-based
+    **iOS**/macOS/**Apple applications &amp; frameworks** leading, creating, maintaining, &amp; migrating across
+    multiple teams, departments, &amp; disciplines. Experienced in porting applications to new platforms.
+    Skilled with **UI/UX engineering** as well, including flow design, accessibility, icons, interactive
+    animations, user interface, layout, and more.
 
 source-code: https://GitHub.com/KyNorthstar/Resume
 
@@ -52,10 +55,10 @@ author:
 date:
     originally-written: 2019-04-02
     newest:
-        web: 2026-01-26
-        pdf: 2026-01-09
+        web: 2026-04-02
+        pdf: 2026-04-02
         txt: 2026-01-06
-        json: 2026-01-06
+        json: 2026-04-02
 
 document:
     directory: /documents

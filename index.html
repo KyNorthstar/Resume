@@ -15,7 +15,7 @@ page-specific-stylesheets:
 
 <article>
     <header class="tldr   flex-column flex-horiz-stretch flex-vert-center">
-        <p>{%- if site.author.professsional.start-year -%}<strong>Since {{ site.author.professsional.start-year }}</strong> {%- endif -%} {{ site.description }}</p>
+        <p>{%- if site.author.professsional.start-year -%}<strong>Since {{ site.author.professsional.start-year }}</strong> {%- endif -%} {{ site.description | markdownify }}</p>
     </header>
 
     {% include contact-list.html %}
@@ -55,12 +55,12 @@ page-specific-stylesheets:
                 %}
                 {%- include resume/experience/infobox.html
                     company='Yes Health'
-                    title='<span>Lead</span> <span>Soft&shy;ware</span> <span>En&shy;gi&shy;neer</span>'
+                    title='<span>Founding</span> <span>Soft&shy;ware</span> <span>En&shy;gi&shy;neer</span>'
                     duration='<time datetime="2021-02-01">2021</time> – <time datetime="2022-03-22">2022</time>'
-
-                    summary-line-1='Coordinated engineering <strong>multiplat health products</strong>. Converted <strong>ObjC</strong> codebase to <strong>SwiftUI</strong>. Enhanced <strong>diversity &amp; inclusion</strong>.'
-                    summary-line-2='Implemented department-wide processes &amp; <strong>best practices</strong>, <strong>version control</strong>, a <strong>documentation</strong> system, etc.'
-                    summary-line-3='Worked with UI/UX to <strong>redesign</strong> &amp; <strong>rebrand</strong> those products.'
+                    
+                    summary-line-1='Spearheaded hiring efforts, growing team from 1 to 3 engineers. Led the engineering of <strong>multiple health &amp; wellness products</strong> across multiple platforms'
+                    summary-line-2='Executed platform migration from offshore <strong>Objective-C</strong>+UIKit to inhouse Swift+<strong>SwiftUI</strong>. Worked with UI/UX team to <strong>redesign</strong> &amp; <strong>rebrand</strong> those products.'
+                    summary-line-3='Improved product &amp; company <strong>diversity &amp; inclusion</strong>. Set department-wide processes &amp; <strong>best practices</strong>: agile kanban sprints, <strong>version control</strong>, <strong>documentation</strong> system, etc.'
 
                     url='https://YesHealth.com'
                     logo='/img/Yes-Health-logo.svg'
@@ -136,15 +136,49 @@ page-specific-stylesheets:
                     company='<span>Co&shy;lum&shy;bus</span> State <span>Uni&shy;ver&shy;sity</span>'
                     title='<span>Bach&shy;e&shy;lor</span> of <span>Sci&shy;ence</span> in <span>Com&shy;put&shy;er</span> <span>Sci&shy;ence</span>'
                     duration='<span>Geor&shy;gia</span>, <time datetime="2014-05-12">2014</time>'
+                    
+                    summary-line-1='Software Engineering, Artificial Intelligence, Games Programming, Databases, Computer Networks, Software Architecture, Operating Systems, and more.'
 
                     url='https://ColumbusState.edu'
                     logo-for-light-theme='/img/CSU_Logo_Tower_WhiteBackground.svg'
                     logo-for-dark-theme='/img/CSU_Logo_Tower_BlueBackground.svg'
                 %}
+                {%- include resume/experience/infobox.html
+                    company='<span>Geor&shy;gia</span> <span>Gwin&shy;nett</span> <span>Coll&shy;ege</span>'
+                    title='<span>Sup&shy;ple&shy;men&shy;ta&shy;ry</span> <span>stud&shy;ies</span>'
+                    
+                    summary-line-1='Calculus, music, philosophy, sociology, and more.'
+
+                    url='https://ColumbusState.edu'
+                    logo-for-light-theme='/img/GGC-logo-lightMode.svg'
+                    logo-for-dark-theme='/img/GGC-logo-darkMode.svg'
+                %}
             {%- include resume/experience/list-end.html %}
         </main>
 
         <section class="sidebar-right">
+            {%- include resume/experience/list-start.html
+                title='Ex&shy;per&shy;tise'
+                id='Expertise'
+            %}
+                {%- include resume/experience/infobox.html
+                    company='<span>AI/ML Dev&shy;el&shy;op&shy;ment</span>'
+                    duration='<time datetime="2013">2013</time> - <i>Present</i>'
+
+                    summary-line-1='Extensive work with both open-source &amp; commercial AI systems for product development.'
+                    summary-line-2='Building workflows with proprietary &amp; OSS models, including Claude, Stable Diffusion, GPT, Flux, Llama, Dolphin Mixtral, and others. Experience with LoRAs, evaluation frameworks, modelfiles, ComfyUI workflows.'
+                    summary-line-3='Creating, fine-tuning, &amp; deploying bespoke models. Experience with ANNs, as well as genetic algorithms and other non-ANN technologies.'
+                %}
+                {%- include resume/experience/infobox.html
+                    company='<span>Data Sys&shy;tems</span> &amp; <span>Knowl&shy;edge Graphs</span>'
+                    duration='<time datetime="2009">2009</time> - <i>Present</i>'
+
+                    summary-line-1='Built Simpedia (2007 - 2009), then the world\'s largest knowledgebase on The Sims.'
+                    summary-line-2='Production experience with SQL, NoSQL, GraphQL+Apollo, and custom graph database &amp; object-store implementations.'
+                    summary-line-3='Designed &amp; implemented wiki systems, object stores, and knowledge management platforms from scratch.'
+                %}
+            {%- include resume/experience/list-end.html %}
+            
             {% include resume-spec-list-start.html
                 title='Tech Specs'
                 id='Tech-Specs'
@@ -155,7 +189,7 @@ page-specific-stylesheets:
                 %}
                 {%- include resume-spec-bar.html
                     skill='Kotlin'
-                    proficiency-out-of-10='7'
+                    proficiency-out-of-10='6'
                 %}
 
 
@@ -176,11 +210,11 @@ page-specific-stylesheets:
                 %}
                 {%- include resume-spec-bar.html
                     skill='watchOS'
-                    proficiency-out-of-10='7'
+                    proficiency-out-of-10='8'
                 %}
                 {%- include resume-spec-bar.html
                     skill='Frameworks / SDKs'
-                    proficiency-out-of-10='9'
+                    proficiency-out-of-10='10'
                 %}
 
 
@@ -303,17 +337,21 @@ page-specific-stylesheets:
         {% if site.author.social.stackoverflow-suffix %}
         <a href="https://stackoverflow.com/{{ site.author.social.stackoverflow-suffix }}" target="_blank" class="button medium-emphasis"><i class="fab fa-stack-overflow"></i> <span>StackOverflow</span></a>
         {%- endif %}
-        <section class="flex-row flex-wrap flex-horiz-space-around">
+    </section>
+    <section class="flex-row flex-wrap flex-horiz-space-around">
+        {% if site.author.social.github %}
+        <a href="{{ site.author.social.github }}" target="_blank" class="big button"><i class="fab fa-github"></i> <span>GitHub</span></a>
+        {% else %}
             {% if site.author.social.github-suffix.personal %}
-            <a href="https://github.com/{{ site.author.social.github-suffix.personal }}" target="_blank" class="button medium-emphasis"><i class="fab fa-github"></i> <span>GitHub <small>(Personal)</small></span></a>
+        <a href="https://github.com/{{ site.author.social.github-suffix.personal }}" target="_blank" class="button medium-emphasis"><i class="fab fa-github"></i> <span>GitHub <small>(Personal)</small></span></a>
             {% endif %}
             {% if site.author.social.github-suffix.big-projects %}
-            <a href="https://github.com/{{ site.author.social.github-suffix.big-projects }}" target="_blank" class="button medium-emphasis"><i class="fab fa-github"></i> <span>GitHub <small>(Big Projects)</small></span></a>
+        <a href="https://github.com/{{ site.author.social.github-suffix.big-projects }}" target="_blank" class="button medium-emphasis"><i class="fab fa-github"></i> <span>GitHub <small>(Big Projects)</small></span></a>
             {% endif %}
             {% if site.author.social.github-suffix.utilities %}
-            <a href="https://github.com/{{ site.author.social.github-suffix.utilities }}" target="_blank" class="button medium-emphasis"><i class="fab fa-github"></i> <span>GitHub <small>(Utilities)</small></span></a>
+        <a href="https://github.com/{{ site.author.social.github-suffix.utilities }}" target="_blank" class="button medium-emphasis"><i class="fab fa-github"></i> <span>GitHub <small>(Utilities)</small></span></a>
             {% endif %}
-        </section>
+        {% endif %}
     </section>
 
     <section class="hide-print flex-row flex-wrap flex-horiz-space-around font-1-1hx">
